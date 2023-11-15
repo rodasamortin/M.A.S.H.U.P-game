@@ -1,3 +1,8 @@
+/*TODO: refer to naming conventions
+TODO: Read https://medium.com/free-code-camp/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849
+https://www.makeuseof.com/css-class-and-id-best-naming-practices/
+*/
+
 html 
 {
     height : 100%
@@ -35,3 +40,5 @@ h1
 .acronym {
     color:#3F0600;
 }
+
+
