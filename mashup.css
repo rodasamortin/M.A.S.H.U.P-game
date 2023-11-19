@@ -11,7 +11,6 @@ html
 body 
 {
     height: 100%;
-    margin: 0;
     background-image: linear-gradient(to bottom,#657AD0,#1C98C2,#EDBBCE);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,6 +34,17 @@ h1
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
+    
+}
+
+.d2-game-intro {
+    margin: 40px;
+    padding: 40px;
+    text-align: justify;
+    line-height: 2rem;
+    border: 5px solid white;
+    border-radius: 20px;
+    
 }
 
 .acronym {
