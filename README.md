@@ -4,6 +4,7 @@
 
 Hello! 👋 Let's play MASHUP! 
 <br>
+<br>
 Expand your vocabulary with a fun twist! Give a word's corresponding <b>M</b>eaning,<b>A</b>ntonym, <b>S</b>ynonym, or <b>H</b>ave a friend to answer, <b>U</b>se it in a sentence, or draw a <b>P</b>icture of it by rolling a dice! 🎲
 
 <h2><u>Instructions</u></h1>
