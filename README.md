@@ -23,8 +23,7 @@ Hello! 👋 Let's play MASHUP! Expand your vocabulary with a fun twist! Give a w
 
 <h3><u>Scope and Limitations </u></h3>
 
-  The words are the top 100 most common adjectives in English from the link below. 👇 Each word will be generated randomly from a set of words in the array.
-
+  The words are the top 100 most common adjectives in English —— which will be randomly generated from an array —— from the link below. 👇 
 
 <h4> Reference </h4>
 
