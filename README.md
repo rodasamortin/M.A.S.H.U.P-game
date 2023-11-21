@@ -21,7 +21,7 @@ Hello! 👋 Let's play MASHUP! Expand your vocabulary with a fun twist! Give a w
   
 </ol>
 
-<h3><u>Scope and Limitations </u></h3>
+<h2><u>Scope and Limitations</u></h2>
 
   The words are the top 100 most common adjectives in English —— which will be randomly generated from an array —— from the link below. 👇 
 
