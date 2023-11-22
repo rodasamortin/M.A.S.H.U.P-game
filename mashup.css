@@ -51,4 +51,17 @@ h1
     color:#3F0600;
 }
 
+.d4-display-new-word {
+  text-align: center;
+  position: relative; 
+}
+
+.d4-wordArea {
+    background-color: whitesmoke;
+    margin: 20px 0px 40px 0px;
+    width: 600px;
+    height: 100px;
+    font-size: 50px;
+    border-radius: 20px;
+}
 
