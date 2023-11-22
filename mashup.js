@@ -79,5 +79,5 @@ let wordSelection = [
 ];
 
 function word() {
-    document.getElementById("d4-wordShowHere").innerHTML = wordSelection[Math.floor(Math.random()* wordSelection.length)];
+    document.getElementById("d4-wordShowHere").innerHTML= wordSelection[Math.floor(Math.random()* wordSelection.length)];
 }
