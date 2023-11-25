@@ -10,7 +10,9 @@
 <body>
     
     <div class = "invite">
+        <!--Used BEM methods, named the block (<div>)invite-->
         <p class ="invite__greeting">
+        <!--Used __ to indicate parent-child relationship-->
         Hello 👋, let's play
     
         </p>
@@ -38,6 +40,7 @@
     </div>
 
     <div class="word--display">
+        <!--There are 2 almost identical parent names/fxns (<words>). Used -- to describe the difference (modifiers between parents -->
     
         <label>
             <button class="word--display__box" type = "button">
@@ -77,9 +80,9 @@
 
 
 
-    <div id = "d7-instructions-area">
+    <div class = "rules">
 
-        <h3 id = "d7-h3-rules">
+        <h3 class = "rules__instructions">
         Instructions
 
         </h3>
@@ -89,13 +92,13 @@
                 <li>The participant must do the corresponding action per dice side</li>
             </ul> 
         
-            <ol class = "indent">
-                <li><b class = "acronym">M</b> — eaning </li>
-                <li><b class = "acronym">A</b> — ntonym</li>
-                <li><b class = "acronym">S</b> — ynonym</li>
-                <li><b class = "acronym">H</b> — ave a friend to answer for you</li>
-                <li><b class = "acronym">U</b> — se in a sentence</li>
-                <li><b class = "acronym">P</b> — icture it!</li>
+            <ol class = "rules__diceNum">
+                <li><b class = "rules__acronym">M</b> — eaning </li>
+                <li><b class = "rules__acronym">A</b> — ntonym</li>
+                <li><b class = "rules__acronym">S</b> — ynonym</li>
+                <li><b class = "rules__acronym">H</b> — ave a friend to answer for you</li>
+                <li><b class = "rules__acronym">U</b> — se in a sentence</li>
+                <li><b class = "rules__acronym">P</b> — icture it!</li>
 
             </ol>
       </div>
