@@ -1,6 +1,6 @@
 function rollNum() {
     var number = Math.random()*(7-1) + 1;
-    document.getElementById("d6-diceNumberHere").innerHTML = Math.floor(number);
+    document.getElementById("number--display__appear").innerHTML = Math.floor(number);
 }
 
 let wordSelection = [
@@ -78,6 +78,6 @@ let wordSelection = [
 
 ];
 
-function word() {
-    document.getElementById("d4-wordShowHere").innerHTML= wordSelection[Math.floor(Math.random()* wordSelection.length)];
+function wordClickBox() {
+    document.getElementById("word--display__appear").innerHTML= wordSelection[Math.floor(Math.random()* wordSelection.length)];
 }
