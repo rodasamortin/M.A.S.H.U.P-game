@@ -8,6 +8,7 @@ Hello! 👋 Let's play MASHUP!
 Expand your vocabulary with a fun twist! Give a word's corresponding <b>M</b>eaning,<b>A</b>ntonym, <b>S</b>ynonym, or <b>H</b>ave a friend to answer, <b>U</b>se it in a sentence, or draw a <b>P</b>icture of it by rolling a dice! 🎲
 
 <h2><u>Instructions</u></h1>
+<p> BEM method was used in naming and describing elements and parent-child relationship.</p>
 <ul>
   <li> Click the "word here" button to generate a new word.</li>
   <li> Click "roll here" to display a dice side number.</li>
