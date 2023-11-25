@@ -27,7 +27,7 @@ h1
     text-align: center;
 }
 
-.d1-greeting 
+.invite
 
 {
     font-size: 5rem;
@@ -37,7 +37,7 @@ h1
     
 }
 
-.d2-game-intro {
+.intro {
     margin: 40px;
     padding: 40px;
     text-align: justify;
