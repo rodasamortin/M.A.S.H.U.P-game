@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
     <title>M.A.S.H.U.P!</title>
     <link rel = "stylesheet" href="mashup.css"></style>
     <script src = "mashup.js"></script>
@@ -24,10 +25,11 @@
 
     
     <div class = "intro"> 
+   
     <h3 class = "intro__about">
         About
     </h3>
-
+   </label>
             <p>
             Expand your students' vocabulary with this dice game.
             <br>
@@ -39,53 +41,17 @@
  
     </div>
 
-    <div class="word--display">
-        <!--There are 2 almost identical parent names/fxns (<words>). Used -- to describe the difference (modifiers between parents -->
-    
-        <label>
-            <button class="word--display__box" type = "button">
-    
-                <span id="word--display__appear" class="word--display__style"></span>
-            </button>
-        </label>
-    </div>
-
-    <div class = "word--click">
-        <label>
-            <button onclick="wordClickBox()">
-                Word here!
-            </button>
-        </label>
-
-    </div>
-    <br>
-    <br>
-
-    <div class ="number--display">
-        <button class = "number--display__box" type = "button" id="number--display__identify"> 
-        
-        <span id = "number--display__appear" class = "number--display__style"> </span>
-        </button>
-
-  
-
-    <div class = "number--click">
-        <label>
-            <button onclick = "rollNum()">
-                Roll it!
-            </button>
-        </label>
-
-    </div>
-
-
-
     <div class = "rules">
-
-        <h3 class = "rules__instructions">
+       
+       <button onclick = rulesGame() class = "rules__click">
+        Instructions
+       </button>
+        <!--<h3 class = "rules__instructions">
         Instructions
 
+      
         </h3>
+        -->
             <ul>
                 <li>Click the <em>word</em> button to generate a word.</li>
                 <li>Click the <em>roll</em> the dice</li>
@@ -103,7 +69,44 @@
             </ol>
       </div>
 
+    <div class="word--display">
+        <!--There are 2 almost identical parent names/fxns (<words>). Used -- to describe the difference (modifiers between parents -->
+    
+        <label>
+            <button class="word--display__box" type = "button">
+    
+                <span id="word--display__appear" class="word--display__style"></span>
+            </button>
+        </label>
+    </div>
 
+    <div class = "word--click">
+        <label>
+            <button onclick="wordClickBox()" class="word--click_new-word">
+                Word here!
+            </button>
+        </label>
+
+    </div>
+    <br>
+    <br>
+
+    <div class ="number--display">
+        <button class = "number--display__box" type = "button" id="number--display__identify"> 
+        
+        <span id = "number--display__appear" class = "number--display__style"> </span>
+        </button>
+
+  
+    </div>
+    <div class = "number--click">
+        <label>
+            <button onclick = "rollNum()" class= "number--click_new-number">
+                Roll it!
+            </button>
+        </label>
+
+    </div>
 
 
 
