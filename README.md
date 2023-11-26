@@ -8,6 +8,7 @@ Hello! 👋 Let's play MASHUP!
 Expand your vocabulary with a fun twist! Give a word's corresponding <b>M</b>eaning,<b>A</b>ntonym, <b>S</b>ynonym, or <b>H</b>ave a friend to answer, <b>U</b>se it in a sentence, or draw a <b>P</b>icture of it by rolling a dice! 🎲
 
 <h2><u>Instructions</u></h1>
+
 <ul>
   <li> Click the "word here" button to generate a new word.</li>
   <li> Click "roll here" to display a dice side number.</li>
@@ -25,8 +26,10 @@ Expand your vocabulary with a fun twist! Give a word's corresponding <b>M</b>ean
 </ol>
 
 <h2><u>Scope and Limitations</u></h2>
-
-  The words are the top 100 most common adjectives in English —— which will be randomly generated from an array —— from the link below. 👇 
+   <p> BEM method was used in naming and describing elements and the parent-child relationship.</p>
+   <br>
+   <br>
+  <p>The words are the top 100 most common adjectives in English —— which will be randomly generated from an array —— from the link below. 👇 </p>
 
 <h4> Reference </h4>
 
