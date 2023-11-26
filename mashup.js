@@ -86,3 +86,4 @@ let wordSelection = [
 function wordClickBox() {
     document.getElementById("word--display__appear").innerHTML= wordSelection[Math.floor(Math.random()* wordSelection.length)];
 }
+

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<html data-darkreader-mode="dynamic" data-darkreader-scheme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="dark light">
     <title>M.A.S.H.U.P!</title>
     <link rel = "stylesheet" href="mashup.css"></style>
     <script src = "mashup.js"></script>
@@ -26,7 +26,7 @@
     
     <div class = "intro"> 
    
-    <h3 class = "intro__about">
+    <h2 class = "intro__about">
         About
     </h3>
    </label>
@@ -41,32 +41,30 @@
  
     </div>
 
-    <div class = "rules">
-       
-       <button onclick = rulesGame() class = "rules__click">
-        Instructions
-       </button>
-        <!--<h3 class = "rules__instructions">
-        Instructions
+    <div class = "rules" tabindex="1">
+        <h3> 
+            Rules &#11167;    
+       </h3>
+    </div>
 
-      
-        </h3>
-        -->
-            <ul>
-                <li>Click the <em>word</em> button to generate a word.</li>
-                <li>Click the <em>roll</em> the dice</li>
-                <li>The participant must do the corresponding action per dice side</li>
-            </ul> 
+    <div class ="rules--hide">
         
-            <ol class = "rules__diceNum">
-                <li><b class = "rules__acronym">M</b> — eaning </li>
-                <li><b class = "rules__acronym">A</b> — ntonym</li>
-                <li><b class = "rules__acronym">S</b> — ynonym</li>
-                <li><b class = "rules__acronym">H</b> — ave a friend to answer for you</li>
-                <li><b class = "rules__acronym">U</b> — se in a sentence</li>
-                <li><b class = "rules__acronym">P</b> — icture it!</li>
+        <ul>
+            <li>Click the <em>word</em> button to generate a word.</li>
+            <li>Click the <em>roll</em> the dice</li>
+            <li>The participant must do the corresponding action per dice side</li>
+        </ul> 
+        
+        <ol class = "rules__diceNum">
+            <li><b class = "rules__acronym">M</b> — eaning </li>
+            <li><b class = "rules__acronym">A</b> — ntonym</li>
+            <li><b class = "rules__acronym">S</b> — ynonym</li>
+            <li><b class = "rules__acronym">H</b> — ave a friend to answer for you</li>
+            <li><b class = "rules__acronym">U</b> — se in a sentence</li>
+            <li><b class = "rules__acronym">P</b> — icture it!</li>
 
-            </ol>
+        </ol>
+      
       </div>
 
     <div class="word--display">

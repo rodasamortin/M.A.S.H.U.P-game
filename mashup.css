@@ -8,7 +8,7 @@ https://www.makeuseof.com/css-class-and-id-best-naming-practices/
 body 
 {
     
-    background-color: #FAF0E4;
+    background-color:#FAF0E4;
     /*background-image: linear-gradient(to bottom,#657AD0,#1C98C2,#EDBBCE);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -25,7 +25,6 @@ h1
     text-align: center;
    
 }
-
 
 
 .invite
@@ -49,6 +48,28 @@ h1
     line-height: 60px;
     font-size: 30px;
     
+}
+
+.rules {
+    cursor:pointer;
+    background-color: #D83F31;
+    color:#E9B824;
+    margin: 40px;
+    padding:5px;
+    width:100px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.rules--hide {
+    color:#219C90;
+    display:none;
+    height:200px;
+   
+}
+
+.rules:focus + .rules--hide{
+    display: block;
 }
 
 .rules__acronym{
@@ -96,14 +117,13 @@ h1
 }
 
 
-
-.word--click, .number--click{
+.word--click, .number--click, .rules__click {
    
     text-align: center;
     position: relative;
 }
 
-.word--click_new-word, .number--click_new-number {
+.word--click_new-word, .number--click_new-number, .rules__click {
     padding: 20px;
     font-size:30px;
     background-color:#D83F31;
