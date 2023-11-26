@@ -73,8 +73,13 @@ let wordSelection = [
     "international",
     "useful",
     "historical",
-    "effective"
-     
+    "effective",
+    "similar",
+    "psychological",
+    "reasonable",
+    "accurate",
+    "difficult",
+
 
 ];
 
