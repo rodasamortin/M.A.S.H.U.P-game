@@ -3,13 +3,21 @@ TODO: Read https://medium.com/free-code-camp/css-naming-conventions-that-will-sa
 https://www.makeuseof.com/css-class-and-id-best-naming-practices/
 */
 
+/*TODO: Make it mobile friendly and interactive*/
+
+/*Color Palettes:
+    - 60%  #FAF0E4
+    - 30%  #219C90 
+    - 10%  #D83F31 
+
+Others:
+      - #E9B824 and #EE9322  */
+    
 
 
 body 
 {
-    
     background-color:#FAF0E4;
-    /*background-image: linear-gradient(to bottom,#657AD0,#1C98C2,#EDBBCE);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     color:#219C90;
