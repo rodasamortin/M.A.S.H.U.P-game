@@ -91,7 +91,9 @@ h1
 .word--display, .number--display {
   text-align: center;
   position: relative;
-
+  display:flex;
+  text-align: center;
+  flex-flow: row wrap;
 
 }
 
@@ -106,6 +108,10 @@ h1
     background-color: #219C90;
     color: #E9B824;
     border-radius: 20px;
+    display:flex;
+    text-align: center;
+    flex-flow: row wrap;
+
   
 }
 
