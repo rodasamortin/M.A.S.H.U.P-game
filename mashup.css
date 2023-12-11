@@ -63,11 +63,14 @@ h1
 }
 
 .rules {
+    display:flex;
+    position:relative;
     cursor:pointer;
     background-color: #D83F31;
     color:#E9B824;
-    margin: 40px;
-    padding:5px;
+    margin-top:50px;
+    margin-left: 450px;
+    padding:10px;
     width:100px;
     text-align: center;
     border-radius: 20px;
@@ -77,6 +80,9 @@ h1
     color:#219C90;
     display:none;
     height:200px;
+    position:relative;
+    margin-top:50px;
+    margin-left: 450px;
    
 }
 
@@ -91,7 +97,7 @@ h1
 .word--display, .number--display {
   text-align: center;
   position: relative;
-  display:flex;
+  display: flex;
   text-align: center;
   flex-flow: row wrap;
 
@@ -108,9 +114,10 @@ h1
     background-color: #219C90;
     color: #E9B824;
     border-radius: 20px;
-    display:flex;
+    display: flex;
     text-align: center;
     flex-flow: row wrap;
+
 
   
 }
