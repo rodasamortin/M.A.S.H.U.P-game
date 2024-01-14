@@ -31,6 +31,10 @@ Expand your vocabulary with a fun twist! Give a word's corresponding <b>M</b>ean
    <br>
   <p>The words are the top 100 most common adjectives in English —— which will be randomly generated from an array —— from the link below. 👇 </p>
 
+   <br>
+   <br>
+   <p> Web responsiveness is still on the works. </p>
+
 <h4> Reference </h4>
 
 https://the-unl.com/100-most-common-adjectives-in-english-95
