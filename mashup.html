@@ -12,6 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>M.A.S.H.U.P!</title>
     <link rel = "stylesheet" href="mashup.css"></style>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src = "mashup.js"></script>
 </head>
 
@@ -32,17 +33,17 @@
     
     <div class = "intro"> 
    
-    <h2 class = "intro__about">
+    <h2>
         About
-    </h3>
+    </h2>
    </label>
-            <p>
-            Expand your students' vocabulary with this dice game.
+            <p class = "intro__about">
+                Challenge your students' vocabulary with this game!
             <br>
-            Add fun in exploring a word's meaning, antonyms and synonyms. Mash it up with a sentence or draw it for extra challenge!
+            Describe, act, sing, guess, sentence, or draw a word. It's a word game mashup for endless fun! 
             <br>
-            Keep rollin'!
-            
+           
+            Let's roll!
             </p>
  
     </div>
@@ -56,15 +57,18 @@
     <div class ="rules--hide">
         
         <ul>
+            <!--<li> Hit the timer button to start time!</li>-->
             <li>Click the <em>word</em> button to generate a word.</li>
             <li>Click the <em>roll</em> the dice</li>
             <li>The participant must do the corresponding action per dice side</li>
+            <li>Feeling stuck? No worries! Just hit the word and roll button to keep the fun going!</li>
+            
         </ul> 
         
         <ol class = "rules__diceNum">
             <li><b class = "rules__acronym">M</b> — eaning </li>
-            <li><b class = "rules__acronym">A</b> — ntonym</li>
-            <li><b class = "rules__acronym">S</b> — ynonym</li>
+            <li><b class = "rules__acronym">A</b> — ct it</li>
+            <li><b class = "rules__acronym">S</b> — ing in a song</li>
             <li><b class = "rules__acronym">H</b> — ave a friend to answer for you</li>
             <li><b class = "rules__acronym">U</b> — se in a sentence</li>
             <li><b class = "rules__acronym">P</b> — icture it!</li>
@@ -79,14 +83,14 @@
         <label>
         <button class="word--display__box" type = "button">
     
-        <span id="word--display__appear" class="word--display__style"></span>
+        <span id="word--display__appear" class="word--display__style">  </span>
         </button>
         </label>
     </div>
 
     <div class = "word--click">
         <label>
-        <button onclick="wordClickBox()" class="word--click_new-word">
+        <button onclick="wordClickBox()" id = "wordButton" class="word--click_new-word">
                 Word here!
         </button>
         </label>
@@ -105,7 +109,7 @@
     </div>
     <div class = "number--click">
         <label>
-        <button onclick = "rollNum()" class= "number--click_new-number">
+        <button onclick = "rollAction()" class= "number--click_new-number">
                 Roll it!
         </button>
         </label>
