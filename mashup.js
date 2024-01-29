@@ -3,6 +3,9 @@ function rollNum() {
     document.getElementById("number--display__appear").innerHTML = Math.floor(number);
 }
 
+
+
+
 let wordSelection = [
     "new",
     "good",
