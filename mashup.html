@@ -16,7 +16,9 @@
     <script src = "mashup.js"></script>
 </head>
 
-<body class = "default" data-new-gr-c-s-check-loaded="8.909.0" data-gr-ext-installed="" cz-shortcut-listen="true">
+<!--<body class = "default" data-new-gr-c-s-check-loaded="8.909.0" data-gr-ext-installed="" cz-shortcut-listen="true"> -->
+    <body cz-shortcut-listen="true" data-new-gr-c-s-check-loaded="8.909.0" data-gr-ext-installed="">
+
     <div class = "invite">
         <!--Used BEM methods, named the block (<div>)invite-->
         <p class ="invite__greeting">
@@ -42,13 +44,14 @@
             <br>
             Describe, act, sing, guess, sentence, or draw a word. It's a word game mashup for endless fun! 
             <br>
-           
             Let's roll!
             </p>
  
     </div>
 
-    <div class = "rules" tabindex="1">
+
+    
+    <div class = "rules" tabindex="0">
         <h3> 
             Rules &#11167;    
        </h3>
@@ -58,10 +61,8 @@
         
         <ul>
             <!--<li> Hit the timer button to start time!</li>-->
-            <li>Click the <em>word</em> button to generate a word.</li>
-            <li>Click the <em>roll</em> the dice</li>
-            <li>The participant must do the corresponding action per dice side</li>
-            <li>Feeling stuck? No worries! Just hit the word and roll button to keep the fun going!</li>
+            <li>Click the <em>Word</em> button to generate a word, then Action button to generate the task</li>
+           <!----> <li>Click the <em>Action!</em> the dice, the do the task</li>
             
         </ul> 
         
@@ -76,7 +77,8 @@
         </ol>
       
       </div>
-
+<div class = "play_area">
+    <div class = "word_area">
     <div class="word--display">
         <!--There are 2 almost identical parent names/fxns (<words>). Used -- to describe the difference (modifiers between parents -->
     
@@ -96,8 +98,8 @@
         </label>
 
     </div>
-    <br>
-    <br>
+    </div>
+    
 
     <div class ="number--display">
         <button class = "number--display__box" type = "button" id="number--display__identify"> 
@@ -110,13 +112,13 @@
     <div class = "number--click">
         <label>
         <button onclick = "rollAction()" class= "number--click_new-number">
-                Roll it!
+                Task here!
         </button>
         </label>
 
     </div>
 
-
+</div>
 
 </body>
 </html>
